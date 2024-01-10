@@ -1,0 +1,7 @@
+﻿<Application
+    x:Class="Ark_Codes_Xbox.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Ark_Codes_Xbox">
+
+</Application>
