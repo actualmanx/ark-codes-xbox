@@ -15,6 +15,7 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Windows.Data;
 
+
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
 namespace Ark_Codes_Xbox
@@ -124,6 +125,58 @@ namespace Ark_Codes_Xbox
             dataPackage.RequestedOperation = DataPackageOperation.Copy;
             dataPackage.SetText("cheat GFI SweetVeggieCake 100 1 0 | cheat GFI SweetVeggieCake 100 1 0 | cheat GFI SweetVeggieCake 100 1 0 | cheat GFI SweetVeggieCake 100 1 0 | cheat GFI SweetVeggieCake 100 1 0");
             Clipboard.SetContent(dataPackage);
+        }
+
+        private void Button_Change_Armour(object sender, RoutedEventArgs e)
+        {
+            if (textBox1.Text == "Please Change Armour to Copy")
+            {
+                textBox1.Text = "Flak";
+                DataPackage dataPackage = new DataPackage();
+                dataPackage.RequestedOperation = DataPackageOperation.Copy;
+                dataPackage.SetText("cheat GFI MetalHelmet 5 100 0 | cheat GFI MetalShirt 5 100 0 | cheat GFI MetalPants 5 100 0 | cheat GFI MetalGloves 5 100 0 | cheat GFI MetalBoots 5 100 0");
+                Clipboard.SetContent(dataPackage);
+            }
+            else if (textBox1.Text == "Flak")
+            {
+                textBox1.Text = "Tek";
+                DataPackage dataPackage = new DataPackage();
+                dataPackage.RequestedOperation = DataPackageOperation.Copy;
+                dataPackage.SetText("cheat GFI PrimalItemArmor_TekBoots 5 100 0 | cheat GFI PrimalItemArmor_TekShirt 5 100 0 | cheat GFI PrimalItemArmor_TekGloves 5 100 0 | cheat GFI PrimalItemArmor_TekHelmet 5 100 0 | cheat GFI PrimalItemArmor_TekPants 5 100 0");
+                Clipboard.SetContent(dataPackage);
+            }
+            else if (textBox1.Text == "Tek")
+            {
+                textBox1.Text = "Fur";
+                DataPackage dataPackage = new DataPackage();
+                dataPackage.RequestedOperation = DataPackageOperation.Copy;
+                dataPackage.SetText("cheat gfi FurPants 5 100 0 | cheat gfi FurShirt 5 100 0 | cheat gfi FurHelmet 5 100 0 | cheat gfi FurBoots 5 100 0 | cheat gfi FurGloves 5 100 0");
+                Clipboard.SetContent(dataPackage);
+            }
+            else if (textBox1.Text == "Fur")
+            {
+                textBox1.Text = "Ghillie";
+                DataPackage dataPackage = new DataPackage();
+                dataPackage.RequestedOperation = DataPackageOperation.Copy;
+                dataPackage.SetText("cheat GFI GhillieBoots 5 100 0 | cheat GFI GhillieShirt 5 100 0 | cheat GFI GhillieGloves 5 100 0 | cheat GFI GhilliePants 5 100 0 | cheat GFI GhillieHelmet 5 100 0");
+                Clipboard.SetContent(dataPackage);
+            }
+            else if (textBox1.Text == "Ghillie")
+            {
+                textBox1.Text = "Riot";
+                DataPackage dataPackage = new DataPackage();
+                dataPackage.RequestedOperation = DataPackageOperation.Copy;
+                dataPackage.SetText("cheat GFI RiotPants 5 100 0 | cheat GFI RiotShirt 5 100 0 | cheat GFI RiotGloves 5 100 0 | cheat GFI RiotBoots 5 100 0 | cheat GFI RiotHelmet 5 100 0");
+                Clipboard.SetContent(dataPackage);
+            }
+            else if (textBox1.Text == "Riot")
+            {
+                textBox1.Text = "Flak";
+                DataPackage dataPackage = new DataPackage();
+                dataPackage.RequestedOperation = DataPackageOperation.Copy;
+                dataPackage.SetText("cheat GFI MetalHelmet 5 100 0 | cheat GFI MetalShirt 5 100 0 | cheat GFI MetalPants 5 100 0 | cheat GFI MetalGloves 5 100 0 | cheat GFI MetalBoots 5 100 0");
+                Clipboard.SetContent(dataPackage);
+            }
         }
     }
 }

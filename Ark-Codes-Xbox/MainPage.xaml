@@ -22,6 +22,8 @@
         <Button Content="Cooked Meat" Margin="777,243,0,0" VerticalAlignment="Top" Width="123" Click="Button_Click_9"/>
         <Button Content="Berry's" Margin="775,296,0,0" VerticalAlignment="Top" Width="126" Click="Button_Click_10"/>
         <Button Content="Veggie Cake's" Margin="777,347,0,0" VerticalAlignment="Top" Width="123" Click="Button_Click_11"/>
+        <Button Content="Change Armour" Margin="189,485,0,0" VerticalAlignment="Top" Width="125" Click="Button_Change_Armour"/>
+        <TextBox Name="textBox1" HorizontalAlignment="Left" Margin="47,484,0,0" TextWrapping="Wrap" Text="Please Change Armour to Copy" VerticalAlignment="Top" Width="125" IsReadOnly="True"/>
 
 
     </Grid>
