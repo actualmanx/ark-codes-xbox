@@ -12,6 +12,16 @@
         <Image HorizontalAlignment="Center" Height="546" VerticalAlignment="Top" Width="939" Source="/Assets/ASA_Logo_Transparent_2560x1440.png"/>
         <Button Content="Sky, Water, Grass" Margin="47,36,0,0" VerticalAlignment="Top" Click="Button_Click"/>
         <Button Content="Starter Pack" Margin="47,90,0,0" VerticalAlignment="Top" Width="125" Click="Button_Click_1"/>
+        <Button Content="Kibble" Margin="47,142,0,0" VerticalAlignment="Top" Width="125" Click="Button_Click_2"/>
+        <Button Content="Shock Darts" Margin="47,192,0,0" VerticalAlignment="Top" Width="125" Click="Button_Click_3"/>
+        <Button Content="Bio Toxin" Margin="47,243,0,0" VerticalAlignment="Top" Width="125" Click="Button_Click_4"/>
+        <Button Content="Artifacts" Margin="775,36,0,0" VerticalAlignment="Top" Width="125" Click="Button_Click_5"/>
+        <Button Content="Tributes" Margin="775,90,0,0" VerticalAlignment="Top" Width="125" Click="Button_Click_6"/>
+        <Button Content="Medi Brews" Margin="776,142,0,0" VerticalAlignment="Top" Width="125" Click="Button_Click_7"/>
+        <Button Content="Mejoberry's" Margin="777,192,0,0" VerticalAlignment="Top" Width="123" Click="Button_Click_8"/>
+        <Button Content="Cooked Meat" Margin="777,243,0,0" VerticalAlignment="Top" Width="123" Click="Button_Click_9"/>
+        <Button Content="Berry's" Margin="775,296,0,0" VerticalAlignment="Top" Width="126" Click="Button_Click_10"/>
+        <Button Content="Veggie Cake's" Margin="777,347,0,0" VerticalAlignment="Top" Width="123" Click="Button_Click_11"/>
 
 
     </Grid>
